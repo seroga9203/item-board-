@@ -1,0 +1,42 @@
+.text-center{
+    text-align: center; 
+    margin: 10px;
+}
+.form-wraper{
+    border: 3px double;
+    width: 340px;
+    margin: 20px auto;
+}
+.form-wraper h1{
+    margin-top: 10px;
+    font-size: 23px;
+}
+.form-wraper .fullwidth{
+    margin: 5px 5%;
+    width: 90%;
+}
+.form-wraper .error{
+    color: red;
+    font-size: 10px;
+}
+.form-wraper input[type="submit"]{
+    font-weight: 700;
+    width: 105px;
+    margin: 5px auto;
+    display: block;
+}
+.button1{
+    background: #e4e4e4;
+    height: 15px;
+    padding: 0 10px;
+    border-radius: inherit;
+    border: 1px solid black;
+    font-size: 12px;
+    margin: 5px auto;
+    display: block;
+    width: 80px;
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700italic);
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+
+
+footer css
+footer {
+    background: #7e7e7e;
+    color: #dbdbdb;
+    font-size: 11px;
+}
+
+#footer {
+    margin: auto;
+    padding: 20px 0;
+    height: 90px;
+}
+
+#footer-logo {
+    float: right;
+    margin-top: 20px;
+    font-size: 10px;
+    text-align: right;
+}
+footer a {
+    color: #5ba1b0;
+}
+
+#sitemap {
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    padding-right: 15px;
+}
+
+#sitemap div {
+    display: inline-block;
+}
+
+#sitemap div + div {
+    margin-left: 200px;
+}
+
+#sitemap a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#sitemap a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/*
+header test */
+
+* { padding: 0; margin: 0; }
+body { background: #f5fff8; font-family: 'Lato', sans-serif; text-transform: uppercase; letter-spacing: 1px;}
+
+
+header h1 {
+    font-size: 16px;
+}
+
+div#footer{clear:left;width:100%; background: #d8caae;color: #5ba1b0}
+.logo {
+    float: left;
+}
+nav {
+    float: right;
+    color: beige;
+}
+
+.button {
+    background:  #d8caae;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    padding: 10px 2px;
+}
+.search_name{
+    text-align: center;
+    color: lightseagreen;
+    font-size: 15pt;
+}
+
+.mainText {
+    text-transform: none;
+    background: #dce2e1;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: normal;
+}
+
+.form{
+    border: 2px solid #5ba1b0;;
+    border-radius: 4px;}
+
+/*search*/
+.col-sm-3{
+    overflow: hidden;
+    margin: 0 0 0 auto;
+    float: none;
+}
+/*ul {
+    margin: 0;
+    list-style: none;
+    padding: 20px;
+    background: #e7e6d4;
+    overflow: auto;
+}
+li {
+    float: left;
+    width: calc(100% / 3 - 20px);
+    height: 50px;
+    margin-right: 20px;
+    background: #ffffff;
+    border: 3px dashed #666666;
+}
+li:last-child {margin-right: 0;}*/
+
+/*own material styles*/
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.fieldset {
+    width: 1000px;
+    height: 70px;
+    margin: auto;
+    background-color: #0D47A1;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.topAdvertisments{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-box{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itemsTop{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    font-size: 0.7em;
+
+    background-image: url(http://i.piccy.info/i9/a03078f02e83de8b31cfc1b6fa9bebb8/1505291865/17085/1179279/goldenbackground.jpg);
+}
+
+.simpleItems{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+    font-size: 0.7em;
+    background-color: #e3e3e3;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+hr{
+    color: white;
+}
+.topAdvertismentsText{
+    color: #0097a7;
+}
+
+body{
+    background-color: #9ad3de;
+}
+
+.singleItem{
+    margin-top: 2em;
+    margin-left: 3em;
+}

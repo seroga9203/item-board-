@@ -1,0 +1,19 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    
+    <bean id="idao" class="dao.ItemDAO"/>
+
+    <bean id="udao" class="dao.UserDAO"/>
+
+    <bean id="gson" class="com.google.gson.Gson"/>
+    
+    <bean id="mainservice" class="service.MainControllerService"/>
+    
+    <bean id="searchservice" class="service.SearchControllerService"/>
+    <bean id="search" class="service.Search" /> 
+    <bean id="randomlist" class="service.TopItemListRandomizer" /> 
+
+</beans>
